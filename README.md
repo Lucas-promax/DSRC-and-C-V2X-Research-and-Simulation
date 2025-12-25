@@ -11,4 +11,6 @@ This repository includes:
 
 This project is based on practical coursework and research from **Beijing University of Posts and Telecommunications (BUPT)**.
 
+- To access the GitHub repository, please visit: https://github.com/Lucas-promax/dsrc-cv2x
 
+- To learn more through the project page, please visit: https://lucas-promax.github.io/dsrc-cv2x/
