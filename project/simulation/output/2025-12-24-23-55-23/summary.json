@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "seconds": 20,
+    "vehicles": 80,
+    "msg_rate_hz_per_vehicle": 10.0,
+    "dist_bin_m": 50,
+    "source": "chunked_read_from_packets_jsonl"
+  },
+  "overall": {
+    "DSRC_80211p": {
+      "receiver_event_count": 706314,
+      "pdr": 0.4115067802705312,
+      "latency_ms_mean": 5.909272031904057,
+      "latency_ms_p95": 12.666356292129615,
+      "busy_ratio_mean": 0.008887477807320823,
+      "sinr_db_mean": 1.2005556731748417,
+      "nlos_rate": 0.6736890391525582,
+      "throughput_mbps_success_only": 34.87836
+    },
+    "C-V2X_Mode4_SPS": {
+      "receiver_event_count": 736948,
+      "pdr": 0.46752009639757486,
+      "latency_ms_mean": 2.231814093215484,
+      "latency_ms_p95": 4.3444950123328745,
+      "busy_ratio_mean": 0.005430073763684819,
+      "sinr_db_mean": 6.635743250062671,
+      "nlos_rate": 0.6736174058413891,
+      "throughput_mbps_success_only": 41.34456
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "timestamp": "2025-12-24-23-55-23",
+  "cli_args": {
+    "vehicles": 80,
+    "seconds": 20,
+    "msg_rate": 10.0,
+    "seed": 1,
+    "comm_range": 700.0,
+    "dist_bin": 50
+  },
+  "scenario": {
+    "road_length_m": 2000.0,
+    "lanes": 3,
+    "lane_width_m": 3.6,
+    "tx_power_dbm": 23.0,
+    "noise_floor_dbm": -95.0,
+    "carrier_freq_ghz": 5.9,
+    "pl0_db": 47.86,
+    "pathloss_exp_los": 2.1,
+    "pathloss_exp_nlos": 2.9,
+    "shadow_sigma_los": 3.0,
+    "shadow_sigma_nlos": 6.0,
+    "nlos_prob_base": 0.12,
+    "nlos_prob_slope": 0.0025,
+    "packet_bytes": 300,
+    "slot_ms": 1
+  },
+  "simulation": {
+    "vehicles": 80,
+    "seconds": 20,
+    "msg_rate_hz": 10.0,
+    "seed": 1,
+    "comm_range_m": 700.0,
+    "interf_range_m": 900.0,
+    "dist_bin_m": 50
+  },
+  "notes": "Streaming JSONL to avoid OOM/WSL crash under high density."
+}
